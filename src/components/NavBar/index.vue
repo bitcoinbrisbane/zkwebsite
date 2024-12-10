@@ -2,7 +2,9 @@
   <nav id="page-left" :class="{ en: type === 'en' }">
     <div :class="{ con: true, sub: origin !== 'page' }">
       <div class="logo">
-        <img src="@/assets/imgs/logo@2x.png" alt="" />
+        <a href="https://portal.openzk.net">
+          <img src="@/assets/imgs/logo@2x.png" alt="" />
+        </a>
       </div>
       <div class="list">
         <div
@@ -12,7 +14,7 @@
           class="item"
           @click="handleRoute(index, item.path)"
         >
-          <a :href="item.path" target="_blank">
+          <a :href="item.path">
             {{ item.en }}
           </a>
         </div>
@@ -34,17 +36,17 @@ export default {
     return {
       bars: [
         {
-          path: "https://openzkbeta.click/aboutus",
+          path: "https://portal.openzk.net/aboutus",
           cn: "About Us",
           en: "About Us",
         },
         {
-          path: "https://openzkbeta.click/airdrop",
+          path: "https://portal.openzk.net/airdrop",
           cn: "Airdrop",
           en: "Airdrop",
         },
         {
-          path: "https://openzkbeta.click/bridge",
+          path: "https://portal.openzk.net/bridge",
           cn: "Bridge",
           en: "Bridge",
         },
