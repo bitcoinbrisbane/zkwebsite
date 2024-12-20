@@ -51,7 +51,7 @@ export default {
           en: "Bridge",
         },
         {
-          path: "https://www.testnet.openzkbeta.click/",
+          path: "https://openzk-testnet.explorer.caldera.xyz/",
           cn: "Explorer",
           en: "Explorer",
         },
